@@ -22,7 +22,7 @@ function createFloatingCode(card) {
   const span = document.createElement('span');
   span.classList.add('code-float');
 
-  // Random number or code symbol
+  // Code symbol
   const codes = ["{ }", "42", "< />", "01", ";", "++"];
   span.textContent = codes[Math.floor(Math.random() * codes.length)];
 
