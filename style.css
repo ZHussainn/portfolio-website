@@ -144,3 +144,12 @@ footer {
   padding: 15px;
   font-size: 14px;
 }
+
+
+.about-text {
+  max-width: 800px;   /* limit line width */
+  margin: 0 auto;     /* center horizontally */
+  text-align: center; /* optional: center the text */
+  line-height: 1.8;   /* nicer spacing */
+  font-size: 1.1rem;  /* slightly larger text for readability */
+}
